@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Troupe — many agents, one brief</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23f2f0ea'/%3E%3Ccircle cx='34' cy='50' r='9' fill='%23e0574f'/%3E%3Ccircle cx='50' cy='50' r='9' fill='%23e0a72e'/%3E%3Ccircle cx='66' cy='50' r='9' fill='%234f8cff'/%3E%3C/svg%3E" />
+<link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="mark">◐</span>
+      <span class="name">Troupe</span>
+      <span class="tagline" id="tagline">a room of agents. one brief. no consensus.</span>
+    </div>
+    <div class="meta">
+      <span id="providerBadge" class="badge">connecting</span>
+      <span id="runMeta" class="run-meta">ready</span>
+      <button id="export" class="ghost-btn" type="button" hidden>Export</button>
+      <label class="blind-toggle"><input type="checkbox" id="blind" /> Blind vote</label>
+      <button id="reveal" class="reveal" type="button" hidden>Reveal</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="brief-card">
+      <div class="brief-label">THE BRIEF</div>
+      <textarea id="brief" rows="3" spellcheck="false"></textarea>
+      <div class="brief-row">
+        <p class="experiment">Does persona conditioning change the style, reliability, or originality of generated motion graphics?</p>
+        <button id="run" type="button">Run the room</button>
+      </div>
+    </section>
+
+    <section class="cast-card" id="castCard">
+      <div class="cast-top">
+        <div class="brief-label">CAST</div>
+        <div class="cast-actions">
+          <div class="mode-switch" id="modeSwitch" role="group" aria-label="Medium" title="3D and Hybrid require the preview server on port 8031">
+            <button type="button" class="mode-btn selected" data-mode="2d">2D</button>
+            <button type="button" class="mode-btn" data-mode="3d">3D</button>
+            <button type="button" class="mode-btn" data-mode="hybrid">Hybrid</button>
+          </div>
+          <button id="coreCast" class="ghost-btn" type="button">Reset to core 8</button>
+        </div>
+      </div>
+      <div id="cast" class="cast-pills"></div>
+      <p class="cast-hint">Choose up to 8 for a blind run. The flavor pack can replace any core agent.</p>
+    </section>
+
+    <div id="room" class="room" data-count="8" aria-live="polite"></div>
+
+    <section id="usageCard" class="usage-card" hidden>
+      <div class="usage-head">
+        <div>
+          <div class="brief-label">USAGE</div>
+          <h2>Token and cost monitor</h2>
+          <p class="usage-note">Tokens are exact. Cost is provider-reported when available, otherwise estimated from configured prices.</p>
+        </div>
+        <div id="usageTotals" class="usage-totals"></div>
+      </div>
+      <div class="table-wrap">
+        <table class="usage-table">
+          <thead>
+            <tr>
+              <th>Agent</th><th>In</th><th>Out</th><th>Total</th>
+              <th>Cost</th><th>Time</th><th>Chars</th><th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="usageBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <div id="toast" class="toast" hidden></div>
+  </main>
+
+  <footer>
+    <span>Troupe · a controlled experiment in agent temperament</span>
+    <span>Code-owned validation · sandboxed previews · no network inside outputs</span>
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
