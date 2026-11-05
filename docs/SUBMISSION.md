@@ -3,7 +3,7 @@
 **Event:** Meta Global AI Developer Hackathon — deadline **Nov 5, 2026, 10:00 AM GMT+8**
 **Project:** Troupe — persona-conditioned coding agents for motion graphics
 **Track:** Indie Developer Track
-**Problem statement:** Push the Frontier
+**Problem statement:** Build for Your World — motion design's first-hour problem is convergence: every concept starts from the same references. Troupe returns eight genuinely different, renderable directions in about 90 seconds, then scores them blind.
 **Model:** Muse Spark 1.3 Contributor (`meta/muse-spark-1.3-contributor`), served through OpenRouter; provider reported by OpenRouter is **Meta**.
 
 The route is OpenRouter, but the model is Meta's. That is stated in the project description, the README, and `HACKATHON.md`. The repository contains one model provider family: Muse Spark, through OpenRouter and the direct Meta Model API.
@@ -97,11 +97,11 @@ Attach a 20–30 second clip, not the full video. Paste the post URL into the **
 | Team name | **Troupe** |
 | Team members | Jonrich Bascug, RichJ |
 | Track | **Indie Developer Track** |
-| Problem statement | **Push the Frontier** |
+| Problem statement | **Build for Your World** |
 | Most Viral Track | X post URL |
 | Project description | below |
 
-> Troupe is a studio where a cast of persona-conditioned coding agents independently build a motion graphic from one brief, then get scored blind.
+> Motion design has a first-hour problem: every concept starts from the same references, so the directions converge. Troupe is a studio where a cast of persona-conditioned coding agents independently build a motion graphic from the same brief — eight genuinely different, renderable directions in about 90 seconds — then get scored blind.
 >
 > Eight agents each carry a Big Five-inspired record and a design kernel — type scale, color budget, easing, risk, and what they refuse to do. The prompt and sampling temperature are derived from that record. A code-owned direction grammar forces every agent to declare a layout, camera, and transition, and validates it. Outputs are self-contained HTML, sandboxed, offline, 1080×1080, eight-second loops.
 >
