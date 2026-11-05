@@ -24,22 +24,31 @@ http://127.0.0.1:8030/?run=20261104-233122-d349
 
 Results: 8/8 in every mode, 0 render errors. Visual similarity **0.46 / 0.59 / 0.62**; palette **0.00 / 0.01 / 0.03**. Costs **$0.0093 / $0.0110 / $0.0117** per run. 56 tests pass.
 
-## 2. Record the video (2:00, AI Studio voiceover)
+## 2. Final video (1:17, AI Studio voiceover)
 
-Aim for ~140 words per minute. Record the screen first, generate the voiceover, then align.
+**Done:** `docs/demo.mp4` — 1920×1080, H.264 + AAC, 13 MB, 77.4 s. The AI Studio voiceover was 1:17, so the screen take was re-timed to it rather than padded with silence.
 
-1. **0:00–0:12** — "Eleven coding agents. Eight in the room. One brief. And no consensus."
-2. **0:12–0:35** — "This is Troupe. Eight agents, each with a different personality, independently write a self-contained HTML motion graphic. Same brief. Same rules. Different temperament."
-3. **0:35–1:00** — "Each agent carries a Big Five-inspired record and a design kernel. The Deadpan Engineer gets two type sizes and only animates opacity. The Hype Maximalist gets five sizes and spring overshoot. The prompt is generated from that record."
-4. **1:00–1:20** — "Every output is validated by code: offline, 1080 by 1080, an eight-second loop. The direction grammar is always on — layout, camera, transition — and the code checks it."
-5. **1:20–1:35** — "The same cast works in 2D, real Three.js 3D, or Hybrid. Tokens are exact per agent. On Muse Spark, a full eight-agent run costs about one cent."
-6. **1:35–1:50** — "Then the room goes blind. Names, colors, order, links — all hidden. The audience votes on the motion, not the persona."
-7. **1:50–2:10** — "The result is honest: 8/8 in every mode, zero render errors. 2D is the most diverse. Hybrid is the most legible, and the most homogeneous."
-8. **2:10–2:20** — "Every run exports as one zip: the review page, the run record, every preview, and the library. Troupe — a writers' room for coding agents."
+| Time | Visual |
+|---|---|
+| 0:00–0:05 | The room, all 8 cards, Muse Spark badge |
+| 0:05–0:16 | Brief + cast pills |
+| 0:16–0:33 | Cards, approach text and previews |
+| 0:33–0:48 | Hybrid selector, second row |
+| 0:48–0:56 | Usage table with real costs |
+| 0:56–1:04 | Blind vote → reveal |
+| 1:04–1:12 | Revealed room, winner |
+| 1:12–1:17 | Export click, close |
 
-Show, in order: the room → the cast → 2D/3D/Hybrid → the usage table → blind vote → reveal → the export download.
+The narration (for reference; the audio is already generated):
 
-Save as `docs/demo.mp4`.
+1. "Eleven coding agents. Eight in the room. One brief. And no consensus."
+2. "This is Troupe. Eight agents, each with a different personality, independently write a self-contained HTML motion graphic. Same brief. Same rules. Different temperament."
+3. "Each agent carries a Big Five-inspired record and a design kernel. The Deadpan Engineer gets two type sizes and only animates opacity. The Hype Maximalist gets five sizes and spring overshoot. The prompt is generated from that record."
+4. "Every output is validated by code: offline, 1080 by 1080, an eight-second loop. The direction grammar is always on — layout, camera, transition — and the code checks it."
+5. "The same cast works in 2D, real Three.js 3D, or Hybrid. Tokens are exact per agent. On Muse Spark, a full eight-agent run costs about one cent."
+6. "Then the room goes blind. Names, colors, order, links — all hidden. The audience votes on the motion, not the persona."
+7. "The result is honest: 8/8 in every mode, zero render errors. 2D is the most diverse. Hybrid is the most legible, and the most homogeneous."
+8. "Every run exports as one zip: the review page, the run record, every preview, and the library. Troupe — a writers' room for coding agents."
 
 ## 3. Publish the repository
 

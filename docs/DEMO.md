@@ -20,7 +20,7 @@ If the page is empty, press **Run the room** once. It takes about **90–120 sec
 
 **Freeze a run for the recording.** After the final run, copy its id from `/latest` or the run metadata, then open `http://127.0.0.1:8030/?run=<run_id>`. That keeps the screenshots and video on the same run even if you experiment afterward.
 
-## 2–3 minute script
+## Script (final cut: 1:17)
 
 1. **Frame the experiment.** "A roster of eleven coding agents, eight in the room, one brief. The question is whether persona changes the output."
 2. **Show the brief and the cast.** *"An 8-second animated logo reveal for Kape, a Filipino coffee brand."* Point at the cast picker: eight core agents, three flavor swap-ins.
@@ -68,7 +68,7 @@ The badge must read `muse-spark / meta/muse-spark-1.3-contributor` before record
 - [ ] `README.md`, `HACKATHON.md`, `LICENSE`
 - [ ] `app/vendor/three.module.js` and `app/vendor/three.LICENSE` included
 - [ ] Screenshots (2D, 3D, hybrid, mobile)
-- [ ] Final narrated `docs/demo.mp4` (the current file is a scratch clip)
+- [x] Final narrated `docs/demo.mp4` (1:17, Muse Spark)
 - [ ] Narrated video recorded with the Muse Spark badge visible
 - [ ] No `data/runs/` or `.env` committed
 - [ ] Rotate any development API keys used before the submission

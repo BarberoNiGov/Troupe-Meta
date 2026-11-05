@@ -222,7 +222,7 @@ The neutral baseline is in the room. If personality helps, a persona should beat
 - `docs/screenshot-3d-revealed.png` — 3D vote counts and winner
 - `docs/screenshot-2d-grammar.png` — 2D studio with the direction grammar
 - `docs/screenshot-mobile.png` — responsive layout
-- `docs/demo.mp4` — scratch clip from the earlier 2D run; final recording pending
+- `docs/demo.mp4` — final 1:17 narrated demo on Muse Spark
 - `docs/DEMO.md` — recording and submission runbook
 
 Run `python scripts/analyze.py` to reproduce the visual/palette/usage tables.
