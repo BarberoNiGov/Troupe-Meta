@@ -8,6 +8,14 @@ Troupe is a controlled experiment: a cast of AI coding agents, each with a diffe
 
 ![Troupe studio](docs/screenshot-hybrid.png)
 
+## The problem
+
+Motion design has a first-hour problem. Before any craft happens, a designer has to explore directions — and that exploration converges: everyone starts from the same references, so the first round looks the same. A client sees two or three options, not eight, because each option costs hours.
+
+Troupe is for solo designers, small agencies, and brand teams who need several directions before the first client call. One brief goes in; eight renderable 8-second loops come out in about 90 seconds, for about a cent.
+
+The blind vote is the decision mechanism: identities, order, colors, and preview links are hidden until reveal, so the team scores the motion, not the person. It produces starting points, not production work.
+
 ## The experiment
 
 **Question:** does persona conditioning change the style, reliability, or originality of coding-agent output?
